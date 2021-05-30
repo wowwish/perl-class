@@ -1,0 +1,11 @@
+LOCUS       sp|Q96AT9|RPE_HUMAN          228 aa            linear   UNK 
+DEFINITION  Ribulose-phosphate 3-epimerase OS=Homo sapiens OX=9606 GN=RPE PE=1
+            SV=1
+ACCESSION   unknown
+FEATURES             Location/Qualifiers
+ORIGIN      
+        1 masgckigps ilnsdlanlg aeclrmldsg adylhldvmd ghfvpnitfg hpvveslrkq
+       61 lgqdpffdmh mmvskpeqwv kpmavaganq ytfhleaten pgalikdire ngmkvglaik
+      121 pgtsveylap wanqidmalv mtvepgfggq kfmedmmpkv hwlrtqfpsl dievdggvgp
+      181 dtvhkcaeag anmivsgsai mrsedprsvi nllrnvcsea aqkrsldr
+//
