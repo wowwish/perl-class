@@ -1,42 +1,7 @@
-LOCUS       GU190379                 706 bp    DNA     linear   BCT 24-JUL-2016
-DEFINITION  Pseudomonas fluorescens strain R31 gyrase (gyrB) gene, partial cds.
-ACCESSION   GU190379
-VERSION     GU190379.1
-KEYWORDS    .
-SOURCE      Pseudomonas fluorescens
-  ORGANISM  Pseudomonas fluorescens
-            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
-            Pseudomonadaceae; Pseudomonas.
-REFERENCE   1  (bases 1 to 706)
-  AUTHORS   Lawongsa,P. and Teaumroong,N.
-  TITLE     Examination of 2,4-diacetylphloroglucinol (DAPG) genetics of
-            Pseudomonas fluorescens R31 isolated from rice rhizosphere in
-            Thailand
-  JOURNAL   Unpublished
-REFERENCE   2  (bases 1 to 706)
-  AUTHORS   Lawongsa,P. and Teaumroong,N.
-  TITLE     Direct Submission
-  JOURNAL   Submitted (10-NOV-2009) Biotechnology, Suranaree University of
-            Technology, University, Muang, Nakhon Ratchasima 30000, Thailand
+LOCUS       GU190379.1               706 bp    dna     linear   UNK 
+DEFINITION  Pseudomonas fluorescens strain R31 gyrase (gyrB) gene, partial cds
+ACCESSION   unknown
 FEATURES             Location/Qualifiers
-     source          1..706
-                     /organism="Pseudomonas fluorescens"
-                     /mol_type="genomic DNA"
-                     /strain="R31"
-                     /db_xref="taxon:294"
-     gene            <1..>706
-                     /gene="gyrB"
-     CDS             <1..>706
-                     /gene="gyrB"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="gyrase"
-                     /protein_id="ADA63664.1"
-                     /translation="SVVNALSEELRLTIRRAGQVWEQIYRHGVPQFALRAVGETDGTG
-                     TEVHFKASAETFTNIHFSWDILAKRLRELSFLNSGVGILLRDERSGKEEMFKYEGGLK
-                     AFVEYLNTNKTIVNEVFHFNIQREEDGVGVEVALQWNDSFNENILCFTNNIPQRDGGT
-                     HLAGFRSALTRHLNNYIEQEGLAKKYKIATTGDDAREGLTAIISVKVPDPKFSSQTKD
-                     KLVSSEVKTAVEQEMGR"
 ORIGIN      
         1 tccgtggtca acgccctgtc cgaggaactg cgcctgacca tccgccgtgc aggccaggtc
        61 tgggagcaga tctatcgcca cggcgttccc cagttcgccc tgcgtgccgt tggcgagacc
@@ -51,4 +16,3 @@ ORIGIN
       601 gccatcatct cggtcaaggt gccggatccg aagttcagct cgcagaccaa ggacaagctg
       661 gtctccagcg aggttaagac tgccgtcgag caggaaatgg gcagat
 //
-

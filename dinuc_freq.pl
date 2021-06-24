@@ -12,9 +12,10 @@ while(<IN>)
 }
 die "couldn't read the fasta file!" unless defined $dna;
 my @seqarray = split(//, $dna);
-my $aa = 0; my $at = 0; my $ag = 0; my $ac = 0; 
+my $aa = 0; my $at = 0; my $ag = 0; my $ac = 0; my $count = 0; 
 for (my $i = 0; $i < $#seqarray; $i++)
 {
+	$count++;
 	my $dinucleotide = $seqarray[$i].$seqarray[$i + 1];
 	if ($dinucleotide eq 'AA') {$aa+=1;}
 	elsif ($dinucleotide eq 'AT') {$at+=1;}
@@ -23,7 +24,8 @@ for (my $i = 0; $i < $#seqarray; $i++)
 }
 
 print "\nDinucleotide Frequencies : \n";
-print "AA : ".$aa."\n";
-print "AT : ".$at."\n";
-print "AG : ".$ag."\n";
-print "AC : ".$ac."\n";
+print "AA : ".$aa."/".length($dna)." (".(($aa / $count) * 100)."%)\n";
+print "AT : ".$at."/".length($dna)." (".(($at / $count) * 100)."%)\n";
+print "AG : ".$ag."/".length($dna)." (".(($ag / $count) * 100)."%)\n";
+print "AC : ".$ac."/".length($dna)." (".(($ac / $count) * 100)."%)\n";
+

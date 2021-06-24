@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Protein Form </title>
+	</head>
+	<body BGCOLOR="pink"></br></br></br>
+		<center><h2>Protein Details</h2></center></br></br></br>
+		<form ACTION="http://localhost/cgi-bin/prot_details.pl" METHOD="POST">
+		<b>Accession ID 		:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="id" SIZE=30 MAXLENGTH=20></br></br>
+		<b>Protein Name 		:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="pname" SIZE=50></br></br>
+		<b>Protein Function 	:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="pfunc" SIZE=100></br></br>
+		<b>Organism 			:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="org" SIZE=50> </br></br>
+		<b>Protein Sequence 	:</b><div STYLE="text-align:left;"><textarea NAME="seq" ROWS="7" COLS="80"></textarea> </br>
+		<input TYPE="submit" VALUE="Submit Form">
+		<input TYPE="reset" VALUE="Clear Form">
+		</form>
+	</body>
+</html>

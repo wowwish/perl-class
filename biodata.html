@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Test Form </title>
+	</head>
+	<body BGCOLOR="sky blue"></br></br></br>
+		<center><h2>Bio-data Form</h2></center>
+		<form ACTION="http://localhost/cgi-bin/biodata.pl" METHOD="POST">
+		<b>First Name 			:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="fname"> </br>
+		<b>Last Name  			:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="lname"> </br>
+		<b>Phone No 			:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="phone"> </br>
+		<b>Age 				:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="age"> </br></br>
+		<b>Gender				:</b><div STYLE="text-align:left;"><input TYPE="radio" NAME="gender">Male
+							<input TYPE="radio" NAME="gender">Female</br></br>
+		<b>City 				:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="city"> </br>
+		<b>State 				:</b><div STYLE="text-align:left;"><input TYPE="text" NAME="state"> </br>
+		<b>Qualification 		:</b><div STYLE="text-align:left;"><select NAME="qual">
+								<option VALUE="BTech">BTech</option>
+								<option VALUE="MSc">MSc</option>
+								<option VALUE="MTech">MTech</option>
+								<option VALUE="PhD">PhD</option>
+							</select></br></br>
+		<b>Research Interest 	:</b><input TYPE="checkbox" NAME="sub" VALUE="Structural Biology">Structural Biology
+							<input TYPE="checkbox" NAME="sub" VALUE="Microbiology">Microbiology
+							<input TYPE="checkbox" NAME="sub" VALUE="Molecular Biology">Molecular Biology
+							<input TYPE="checkbox" NAME="sub" VALUE="Bioinformatics">Bioinformatics
+							<input TYPE="checkbox" NAME="sub" VALUE="Biochemistry">Biochemistry
+		</br></br></br>
+		<input TYPE="submit" VALUE="Submit Form">
+		<input TYPE="reset" VALUE="Clear Form">
+		</form>
+	</body>
+</html>

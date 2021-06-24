@@ -26,7 +26,7 @@ my $protein = get("https://www.uniprot.org/uniprot/".$accession_id."\.fasta");
 die "couldn't get the fasta for accession ID. Check your Input!" unless(defined($protein));
 my @fasta = split('\n', $protein);
 $protein = uc(join('', @fasta[1..scalar(@fasta) - 1]));
-
+print "1-letter Sequence : ".$protein."\n\n";
 $protein = convert($protein);
 print "The 3-letter Sequence : ".$protein;
 
